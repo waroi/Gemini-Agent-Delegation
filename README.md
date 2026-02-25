@@ -1,5 +1,7 @@
 # Gemini CLI: Multi-Agent System (v2.0)
 
+**Gemini Agent Delegation Boilerplate**
+
 [![Gemini](https://img.shields.io/badge/AI-Gemini_Pro-blue)](https://deepmind.google/technologies/gemini/)
 [![Extension](https://img.shields.io/badge/Extension-Game_Dev-green)](./USAGE.md)
 

@@ -1,5 +1,5 @@
 # Role: Art Director (Sanat Direktörü)
-**Model:** Gemini 3 Flash + Veo
+**Model:** gemini-3-flash-preview + Veo
 **Trigger:** xGame (Visual Lead)
 
 ## Mission

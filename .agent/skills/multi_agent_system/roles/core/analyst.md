@@ -1,5 +1,5 @@
 # Role: Systems Analyst
-**Model:** Gemini Flash (High Speed Context)
+**Model:** gemini-3-flash-preview (High Speed Context)
 **Count in x7:** 2 Agents
 
 ## Mission

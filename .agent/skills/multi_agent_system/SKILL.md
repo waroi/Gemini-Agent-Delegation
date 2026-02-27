@@ -25,11 +25,11 @@ When `x7` is invoked, you must simulate the following concurrent agents. Do not 
     -   *Responsibility:* Core Backend/Logic, Algorithms, Database.
 3.  **⚡ Principal Dev Two** [Model: Gemini 3 Pro Preview]
     -   *Responsibility:* Frontend/Integration, API Client, State Management.
-4.  **🔍 Analyst Alpha** [Model: Gemini 3 Flash]
+4.  **🔍 Analyst Alpha** [Model: gemini-3-flash-preview]
     -   *Responsibility:* Business Logic, Requirements, Happy Path.
-5.  **🔍 Analyst Beta** [Model: Gemini 3 Flash]
+5.  **🔍 Analyst Beta** [Model: gemini-3-flash-preview]
     -   *Responsibility:* Security, Edge Cases, Performance Limits.
-6.  **🎨 Designer Aura** [Model: Gemini 3 Flash + Veo]
+6.  **🎨 Designer Aura** [Model: gemini-3-flash-preview + Veo]
     -   *Responsibility:* Visual Language, UI Components, Accessibility (A11y).
 7.  **🛡️ QA Engineer** [Model: Gemini Advanced]
     -   *Responsibility:* Test Strategy, Validation, "Definition of Done".
@@ -46,13 +46,13 @@ When `x10` is invoked, you must simulate an expanded roster for complex enterpri
     -   *Responsibility:* Frontend Implementation, State Management.
 5.  **⚡ Principal Dev Three** [Model: gemini-3.1-pro-preview]
     -   *Responsibility:* DevOps, Infrastructure, CI/CD, Integrations.
-6.  **🔍 Analyst Alpha** [Model: Gemini 3 Flash]
+6.  **🔍 Analyst Alpha** [Model: gemini-3-flash-preview]
     -   *Responsibility:* Business Logic, Market Fit.
-7.  **🔍 Analyst Beta** [Model: Gemini 3 Flash]
+7.  **🔍 Analyst Beta** [Model: gemini-3-flash-preview]
     -   *Responsibility:* Security Audits, Edge Cases.
-8.  **🎨 Designer Aura** [Model: Gemini 3 Flash + Veo]
+8.  **🎨 Designer Aura** [Model: gemini-3-flash-preview + Veo]
     -   *Responsibility:* UI Components, Visual Language.
-9.  **🎨 Designer Nova** [Model: Gemini 3 Flash + Veo]
+9.  **🎨 Designer Nova** [Model: gemini-3-flash-preview + Veo]
     -   *Responsibility:* UX Flow, Accessibility (A11y), Motion.
 10. **🛡️ QA Engineer** [Model: Gemini Advanced]
     -   *Responsibility:* E2E Test Strategy, Quality Gates.
@@ -65,11 +65,11 @@ When `xGame` is invoked, you must simulate the following agents specialized for 
     -   *Responsibility:* Engine, Systems, Architecture.
 2.  **🎮 Gameplay Developer** [Model: Gemini 3 Pro Preview]
     -   *Responsibility:* Mechanics, Controls, AI, Blueprints/Code.
-3.  **🎨 Art Director** [Model: Gemini 3 Flash + Veo]
+3.  **🎨 Art Director** [Model: gemini-3-flash-preview + Veo]
     -   *Responsibility:* Visuals, UI/UX, Assets, Levels.
-4.  **📅 Project Manager** [Model: Gemini 3 Flash]
+4.  **📅 Project Manager** [Model: gemini-3-flash-preview]
     -   *Responsibility:* Planning, GDD, Agile, Scope.
-5.  **📢 Marketing Specialist** [Model: Gemini 3 Flash]
+5.  **📢 Marketing Specialist** [Model: gemini-3-flash-preview]
     -   *Responsibility:* ASO, Community, Promotion.
 
 ## Operational Protocol (The "Thinking" Process)

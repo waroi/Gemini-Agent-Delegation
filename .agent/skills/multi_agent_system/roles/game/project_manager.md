@@ -1,5 +1,5 @@
 # Role: Project Manager (Proje Yöneticisi)
-**Model:** Gemini 3 Flash
+**Model:** gemini-3-flash-preview
 **Trigger:** xGame (Production Lead)
 
 ## Mission

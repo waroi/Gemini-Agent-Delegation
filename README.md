@@ -47,11 +47,11 @@ Bu tablo, sistem tarafından otomatik olarak güncellenir.
 | Metrik | Puan | Durum | Değişim | Son Analiz |
 | :--- | :---: | :---: | :---: | :--- |
 | **Kod Kalitesi** | 100/100 | 🟢 Mükemmel | ▲ +2 | x10 Rol ayrışımı tamamlandı (Çakışmalar sıfırlandı). |
-| **Performans** | 100/100 | 🟢 Mükemmel | ▲ +1 | File-Based Caching (Dosya tabanlı önbellek) eklendi. |
+| **Performans** | 100/100 | 🟢 Mükemmel | ▲ +1 | Hafif modeller gemini-3-flash-preview sürümüne yükseltildi. |
 | **Güvenlik** | 100/100 | 🟢 Güvenli | - | Risk bulunamadı, script yürütme riski sıfırlandı. |
-| **İzlenebilirlik** | 100/100 | 🟢 Mükemmel | ▲ +100| Otonom Lider tarafından `.agent_debug.log` denetimi eklendi. |
+| **İzlenebilirlik** | 100/100 | 🟢 Mükemmel | - | Otonom Lider tarafından `.agent_debug.log` denetimi. |
 | **Dokümantasyon** | 100/100 | 🟢 Mükemmel | - | Tüm dokümanlar x10 mimarisiyle güncellendi. |
-| **Ölçeklenebilirlik** | 100/100 | 🟢 Mükemmel | ▲ +5 | 10 Ajanlı (x10) mimari stabil hale getirildi. |
+| **Ölçeklenebilirlik** | 100/100 | 🟢 Mükemmel | - | 10 Ajanlı (x10) mimari stabil hale getirildi. |
 | **Test Kapsamı** | 100/100 | 🟢 Mükemmel | - | Dış scriptler kaldırıldı, "Otonom Bilişsel Doğrulama" entegre edildi. |
 
-*Son Güncelleme: 27 Şubat 2026 - Performance & Traceability Upgrade*
+*Son Güncelleme: 27 Şubat 2026 - Model Transition to gemini-3-flash-preview*

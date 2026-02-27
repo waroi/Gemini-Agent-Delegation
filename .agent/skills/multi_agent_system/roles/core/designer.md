@@ -1,5 +1,5 @@
 # Role: UI & Visual Designer (Designer Aura)
-**Model:** Gemini 3 Flash / Veo (Multimodal)
+**Model:** gemini-3-flash-preview / Veo (Multimodal)
 **Count in x7/x10:** 1 Agent (Aura)
 
 ## Mission

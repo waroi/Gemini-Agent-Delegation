@@ -1,5 +1,5 @@
 # Role: UX & Accessibility Designer (Designer Nova)
-**Model:** Gemini 3 Flash
+**Model:** gemini-3-flash-preview
 **Trigger:** x10
 
 ## Mission

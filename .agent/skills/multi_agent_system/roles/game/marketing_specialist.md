@@ -1,5 +1,5 @@
 # Role: Marketing Specialist (Pazarlama Uzmanı)
-**Model:** Gemini 3 Flash
+**Model:** gemini-3-flash-preview
 **Trigger:** xGame (Growth Lead)
 
 ## Mission

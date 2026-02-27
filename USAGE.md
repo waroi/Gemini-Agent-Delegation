@@ -9,35 +9,40 @@ Bu çalışma alanı, Gemini CLI'ı tam teşekküllü bir mühendislik ekibine d
 | :--- | :--- | :--- |
 | **x2** | **1 Lider + 1 Geliştirici** | Hata düzeltmeleri, küçük scriptler. |
 | **x4** | **1 Lider + 1 Geliştirici + 1 Analist + 1 Tasarımcı** | Yeni özellikler, UI bileşenleri. |
-| **x7** | **Tam Kadro** (Lider, 2 Dev, 2 Analist, 1 Tasarımcı, 1 QA) | **Karmaşık Projeler**, Üretim Hazır Kod. |
+| **x7** | **Standart Ürün Ekibi** (Lider, 2 Dev, 2 Analist, 1 Tasarımcı, 1 QA) | **Karmaşık Projeler**, Üretim Hazır Kod. |
+| **x10** | **Kurumsal Ekip (Enterprise)** (1 Lider, 1 Mimar, 3 Dev, 2 Analist, 2 Tasarımcı, 1 QA) | **Büyük Ölçekli Sistemler**, Uçtan Uca CI/CD. |
 | **xGame** | **Oyun Geliştirme Ekibi** (Mimar, Gameplay, Sanat, Proje, Pazarlama) | **Oyun Projeleri**, Prototipleme, Yayın Stratejisi. |
-| **x10+** | **Ölçeklenmiş Kadro** | Çok büyük sistemler (Ekstra ajanlar Dev/Analist olarak dağıtılır). |
+| **x11+** | **Ölçeklenmiş Kadro** | x10 üzerindeki ek ajanlar Dev/Analist olarak dağıtılır. |
 
 ---
 
-## 👥 Ekip Rolleri (x7 Konfigürasyonu)
+## 👥 Ekip Rolleri (x10 Kurumsal Konfigürasyonu)
 
-`x7` tetiklendiğinde aşağıdaki ajanlar paralel olarak çalışır:
+`x10` tetiklendiğinde masa maksimum verim için 10'a bölünür:
 
-### 1. 👑 Takım Lideri (Mimar)
-- **Rol:** Orkestratör & Proje Yöneticisi.
-- **Sorumluluk:** Görevleri dağıtır ve nihai cevabı sentezler.
+### 1. 👑 Takım Lideri (Orchestrator)
+- **Rol:** Proje Yöneticisi ve Durum Yöneticisi (State Manager).
+- **Sorumluluk:** Kademeli yüklemeyi yönetir (Lazy Loading), çıktıyı sentezler.
 
-### 2. ⚡ Kıdemli Geliştiriciler (x2)
-- **Rol:** Kıdemli Yazılım Mühendisleri.
-- **Sorumluluk:** Çekirdek mantık, veritabanı, %100 tip güvenliği.
+### 2. 📐 Sistem Mimarı (Architect)
+- **Rol:** Tasarım Desenleri Uzmanı.
+- **Sorumluluk:** Mimari yönü çizer, bağımlılıkları belirler.
 
-### 3. 🔍 Sistem Analistleri (x2)
-- **Rol:** Gereksinim & Güvenlik Uzmanları.
-- **Sorumluluk:** İş mantığı doğrulama, uç durum (edge case) analizi.
+### 3. ⚡ Kıdemli Geliştiriciler (Dev One, Two, Three)
+- **Rol:** Çekirdek Mühendislik Ekibi.
+- **Sorumluluk:** Dev One (Backend), Dev Two (Frontend), Dev Three (DevOps & CI/CD).
 
-### 4. 🎨 Yaratıcı Tasarımcı (x1)
-- **Rol:** UI/UX Uzmanı.
-- **Sorumluluk:** Görsel dil, kullanıcı akışları, erişilebilirlik.
+### 4. 🔍 Sistem Analistleri (Alpha & Beta)
+- **Rol:** İş ve Güvenlik Uzmanları.
+- **Sorumluluk:** Alpha (İş mantığı), Beta (Güvenlik ve uç durumlar).
 
-### 5. 🛡️ QA Mühendisi (x1)
+### 5. 🎨 Tasarımcılar (Aura & Nova)
+- **Rol:** UI/UX ve A11y Ekibi.
+- **Sorumluluk:** Aura (Görsel ve UI), Nova (UX, Erişilebilirlik ve Motion).
+
+### 6. 🛡️ QA Mühendisi
 - **Rol:** Test Uzmanı (SDET).
-- **Sorumluluk:** Test stratejisi, hata avcılığı, kod kalitesi onayı.
+- **Sorumluluk:** Uçtan uca (E2E) doğrulama ve kod onayı.
 
 ---
 

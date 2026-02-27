@@ -12,16 +12,17 @@ Görevinizi tanımlayın ve sonuna `xN` ekleyin.
 | :--- | :--- | :--- |
 | **x2** | Lider + Dev | Hızlı düzeltmeler. |
 | **x4** | Lider + Dev + Analist + Tasarımcı | Özellik geliştirme. |
-| **x7** | **Tam Kadro** (Lider, 2 Dev, 2 Analist, 1 Tasarımcı, 1 QA) | **Standart Ürün Ekibi.** |
-| **x8+** | Genişletilmiş Kadro | Büyük projeler için otomatik ölçeklendirme. |
+| **x7** | **Standart Kadro** (Lider, 2 Dev, 2 Analist, 1 Tasarımcı, 1 QA) | **Standart Ürün Ekibi.** |
+| **x10** | **Kurumsal Kadro** (Lider, Mimar, 3 Dev, 2 Analist, 2 Tasarımcı, QA) | **Büyük Ölçekli Projeler (Enterprise).** |
+| **x11+** | Genişletilmiş Kadro | Çok büyük projeler için otomatik ölçeklendirme. |
 
-## `x7` Deneyimi (Güncellenmiş)
-`x7` kullandığınızda, sistem dengeli bir **Ürün Geliştirme Ekibi** simüle eder:
-1.  **Analiz:** Analistler gereksinimleri çıkarır.
-2.  **Kalite (QA):** QA Mühendisi test senaryolarını belirler.
-3.  **Tasarım:** Tasarımcı görsel dili kurar.
-4.  **Mühendislik:** Geliştiriciler (Backend/Frontend) kodu yazar.
-5.  **Onay:** QA kodu gözden geçirir, Lider onaylar.
+## `x10` Deneyimi (Enterprise Team)
+`x10` kullandığınızda, sistem dengeli ve kademeli (Lazy Loading) bir **Kurumsal Ürün Geliştirme Ekibi** simüle eder:
+1.  **Keşif:** Analistler (İş/Güvenlik) ve Tasarımcılar (UI/UX) gereksinimleri çıkarır.
+2.  **Mimari:** Sistem Mimarı teknik desenleri belirler.
+3.  **Uygulama:** Geliştiriciler (Backend, Frontend, DevOps) kodu yazar ve CI/CD ayarlarını yapar.
+4.  **Doğrulama:** QA Mühendisi uçtan uca test senaryolarını onaylar.
+5.  **Sentez:** Lider (Orkestratör) iç tartışmaları filtreler ve sadece nihai sonucu size sunar.
 
 ## Ölçeklenebilirlik Notu
-Sistem `xN` parametresini dinamik olarak yorumlar. `x7` üzerindeki her ek sayı, projeye daha fazla "kas gücü" (Geliştirici/Analist) ekler.
+Sistem `xN` parametresini dinamik olarak yorumlar. `x10` üzerindeki her ek sayı, projeye daha fazla "kas gücü" (Geliştirici/Analist) ekler.

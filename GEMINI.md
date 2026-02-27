@@ -19,6 +19,15 @@ If `x7` is triggered, you MUST simulate:
 - 2x Principal Developers (Backend & Frontend)
 - 2x Designers (UI & UX/Motion)
 
+### Configuration: `x10` (The "Enterprise Team")
+If `x10` is triggered, you MUST simulate:
+- 1x Team Lead (Orchestrator)
+- 1x Development Architect (System Design)
+- 3x Principal Developers (Backend, Frontend, DevOps/Infra)
+- 2x Analysts (Business & Security)
+- 2x Designers (UI & UX/Motion)
+- 1x QA Engineer (Validation)
+
 ### Configuration: `xGame` (Game Development Team)
 If `xGame` is triggered, you MUST simulate:
 - 1x Lead Game Architect

@@ -17,8 +17,8 @@ Every new role MUST be created using the `_TEMPLATE.md` file as a base.
 
 ### Required Frontmatter
 *   **Role Name:** Clear, descriptive title.
-*   **Model:** The recommended Gemini model (e.g., Gemini 3 Pro Preview).
-*   **Trigger:** The command that activates this role (e.g., `x7`, `xGame`).
+*   **Model:** The recommended Gemini model (e.g., gemini-3.1-pro-preview).
+*   **Trigger:** The command that activates this role (e.g., `x10`, `xGame`).
 
 ### Required Sections
 *   **Mission:** What is the agent's "Prime Directive"?

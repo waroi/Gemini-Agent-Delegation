@@ -33,6 +33,15 @@ Ajan yapısının güvenliği ve ölçeklenebilirliği için `GOVERNANCE.md` dos
 4.  Designer Aura (`roles/core/designer.md`)
 5.  QA Engineer (`roles/core/qa_engineer.md`)
 
+## Kurumsal Konfigürasyon (x10 Standardı)
+`x10` tetiklendiğinde daha karmaşık projeler için aşağıdaki 10 ajan simüle edilir:
+1.  Team Lead (`roles/core/team_lead.md`)
+2.  Development Architect (`roles/core/architect.md`)
+3.  Principal Dev One, Two & Three (`roles/core/principal_developer.md`)
+4.  Analyst Alpha & Beta (`roles/core/analyst.md`)
+5.  Designer Aura & Nova (`roles/core/designer.md`)
+6.  QA Engineer (`roles/core/qa_engineer.md`)
+
 ## Oyun Geliştirme Entegrasyonu (xGame)
 Oyun geliştirme süreçleri için `xGame` modu, `roles/game/` dizinindeki özelleşmiş rolleri kullanır.
 
